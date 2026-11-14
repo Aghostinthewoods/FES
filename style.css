@@ -1,0 +1,29 @@
+body {
+    background-color: #9D72A9;
+}
+
+h1 {
+    color: purple;
+}
+
+p {
+    color: purple;
+}
+
+a {
+    color: purple;
+}
+
+hr {
+    color: purple;
+    border-color: purple;
+}
+
+li {
+    color: purple;
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+}
