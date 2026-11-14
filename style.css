@@ -1,29 +1,10 @@
-body {
-    background-color: #9D72A9;
-}
-
-h1 {
-    color: purple;
-}
-
-p {
-    color: purple;
-}
-
-a {
-    color: purple;
-}
-
-hr {
-    color: purple;
-    border-color: purple;
-}
-
-li {
-    color: purple;
-    text-align: center;
-}
-
-ul {
-    list-style: none;
+.card {
+  width: 320px;
+  height: 180px;
+  background-color: #f9f9f9;
+  padding: 20px;
+  margin: 20px auto;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  box-sizing: border-box;
 }
