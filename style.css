@@ -1,16 +1,21 @@
-.card {
-  position: relative;
-  width: 1000px;
-  height: 800px;
-  overflow: auto;
+.cta {
+  background-color: royalblue;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
 }
 
-.overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  background-color: rgba(220, 20, 60, 0.9);
-  color: white;
-  padding: 10px;
-  z-index: 10;
+.cta:hover {
+  background-color: dodgerblue;
+}
+
+.cta:active {
+  background-color: navy;
+}
+
+.cta::after {
+  content: " →";
+  font-weight: bold;
 }
