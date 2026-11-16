@@ -1,21 +1,29 @@
-.cta {
-  background-color: royalblue;
-  color: white;
-  padding: 12px 20px;
-  border: none;
-  border-radius: 6px;
-  cursor: pointer;
+.menu {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  background: #f5f5f5;
+  padding: 20px;
 }
 
-.cta:hover {
-  background-color: dodgerblue;
+.menu a {
+  position: relative;
+  text-decoration: none;
+  color: #333;
+  font-weight: 600;
 }
 
-.cta:active {
-  background-color: navy;
+.menu a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  width: 0%;
+  height: 2px;
+  background: #333;
+  transition: width 0.3s ease;
 }
 
-.cta::after {
-  content: " →";
-  font-weight: bold;
+.menu a:hover::after {
+  width: 100%;
 }
