@@ -1,26 +1,124 @@
-p {
-    color: #b29a9a;
-    background-image: linear-gradient(90deg, blue, lightblue); 
+
+Home
+Chat
+23Community
+
+Community
+
+
+Inline vs External
+
+
+Settings
+
+Rewind 10s
+Play
+Forward 10s
+02:28
+
+
+0:55
+02:28
+Mute
+
+Settings
+Enter fullscreen
+Play
+
+Inline vs External
+Design Like a Real Developer
+
+Lesson 3/4
+
+🧩 Inline vs External CSS
+Inline CSS means writing styles directly inside the element tag.
+External CSS means linking to a separate stylesheet that controls multiple elements at once.
+How you place your CSS changes everything — from speed to scale.
+👕 Inline Styling
+Inline styling is a quick, local fix.
+
+Copy
+<h1 style="color: red;">Hello</h1>
+✅ Good for testing or small tweaks
+❌ Not reusable or scalable
+
+You’d have to repeat this style in every <h1> you want red.
+
+📄 External Styling
+External styling keeps things organized and consistent.
+
+HTML stays clean:
+
+Copy
+<h1>Hello</h1>
+Link your stylesheet in the <head> (only necessary later in VSCode):
+
+Copy
+<link rel="stylesheet" href="style.css">
+Inside style.css:
+
+Copy
+h1 {
+  color: red;
 }
+✅ Clean structure
+✅ One change updates everything
+✅ Scales for large projects
 
-body {
-    background-color: #1f0606;
-    text-align: center:center;
-    font-family: Arial, sans-serif;
-    padding:80px;
+You’ll almost always use external CSS in real projects — it’s the standard for professional development.
+But it’s still useful to understand inline styling for testing, debugging, and making quick visual adjustments.
 
+🧠 Why It Matters
+Inline CSS = fast, temporary fixes
+External CSS = maintainable design systems
+
+Real companies like Shopify rely on external CSS.
+They manage thousands of stores with one shared style file — update it once, and every page changes instantly.
+
+LESSON 3/4 - INLINE VS EXTERNAL
+
+✍️ Editor Challenge
+Try both methods to see the difference:
+
+Inline:
+
+Copy
+<h1 style="color: green;">Welcome</h1>
+External:
+
+Copy
+<h1>Welcome</h1>
+style.css:
+
+Copy
+h1 {
+  color: green;
 }
+✅ Use inline CSS for quick prototypes
+✅ Use external CSS for real projects
 
-.poster h1 {
-    color: #ff6600;
-    font-size: 28 px;
-    font-weight: 600;
-    margin-bottom: px;
+HTML
+CSS
+Saved
 
-}
 
-.poster p {
-    color: #555;
-    font-size: 18px;
-    font-style: italic;
-}
+123
+Preview
+
+
+
+
+Feeling Stuck? Watch a Worked Solution
+💡 Final Cue
+Inline CSS is fast, but external CSS is scalable.
+When your project grows, clean structure and reusable styles are what keep everything consistent.
+
+Now, let’s start organizing your styles like the pros.
+
+woman image
+Lesson Complete! Nice work, you’re getting better each step.
+Rate Lesson
+
+Next Lesson
+
+
