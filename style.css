@@ -1,29 +1,16 @@
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px 40px;
-  background-color: #4337de;
+.card {
+  position: relative;
+  width: 1000px;
+  height: 800px;
+  overflow: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(220, 20, 60, 0.9);
   color: white;
+  padding: 10px;
+  z-index: 10;
 }
-
-.navbar__logo {
-  font-size: 24px;
-  font-weight: bold;
-}
-
-.navbar__links {
-  display: flex;
-  gap: 25px;
-}
-
-.navbar__links a {
-  color: white;
-  text-decoration: none;
-  font-weight: 500;
-}
-
-.navbar__links a:hover {
-  text-decoration: underline;
-}
-
